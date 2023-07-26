@@ -17,11 +17,11 @@ const Portfolio = () => {
          </h2>
 
          <div className="work__filters">
-           <span className="work__item" onClick={()=> setItems(Menu)}>Everything</span>
-           <span className="work__item" onClick={()=> filterItem("BackEnd")}>BackEnd</span>
-           <span className="work__item" onClick={()=> filterItem("FrontEnd")}>FrontEnd</span>
-           <span className="work__item" onClick={()=> filterItem("Mobile")}>Mobile</span>
-           <span className="work__item" onClick={()=> filterItem("FullStack")}>FullStack</span>
+           <span className="work__item" onClick={()=> setItems(Menu)}>All</span>
+           <span className="work__item" onClick={()=> filterItem("Node Js")}>Node Js</span>
+           <span className="work__item" onClick={()=> filterItem("React Js")}>React Js</span>
+           <span className="work__item" onClick={()=> filterItem("Flutter")}>Flutter</span>
+           <span className="work__item" onClick={()=> filterItem("Html")}>Html & CSS</span>
          </div>
 
          <div className="work__container grid">
@@ -37,8 +37,8 @@ const Portfolio = () => {
 
                     <span className="work__category">{category}</span>
                     <h3 className="work__title">{title}</h3>
-                    <a href="#" className="work__button">
-                      <i className="icon-link work__button-icon">Gitlab</i>
+                    <a href="https://github.com/SirDICO" className="work__button">
+                      <i className="icon-link work__button-icon">Github</i>
                     </a>
                   </div>
                 )
